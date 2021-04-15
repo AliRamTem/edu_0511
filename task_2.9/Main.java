@@ -2,8 +2,6 @@
 Задание: Дан массив с числами. Проверьте, что в этом массиве есть число 5. Если есть - выведите 'да', а если нет - выведите 'нет'.
 */
 
-import jdk.swing.interop.SwingInterOpUtils;
-
 public class Main {
     public static void main(String[] args) {
         //напишите тут ваш код
