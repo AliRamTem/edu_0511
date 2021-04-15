@@ -11,6 +11,7 @@
 public class Main {
     public static int min(int a, int b, int c) {
         //напишите тут ваш код
+        //return Math.min(Math.min(a,b) , c); Если так можно было
         if (a < b) {
             if (a < c)
                 return a;
