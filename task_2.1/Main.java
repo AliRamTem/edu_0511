@@ -17,11 +17,14 @@ public class Main {
         String a = "Мама";
         String b = "Мыла";
         String c = "Раму";
-        System.out.println(a + b + c);
-        System.out.println(b + c + a);
-        System.out.println(c + a + b);
-        System.out.println(c + b + a);
-        System.out.println(b + a + c);
-        System.out.println(a + c + b);
+        String[] array = {a, b, c};
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array.length; j++) {
+                for (int k = 0; k < array.length; k++) {
+                    if (j != i && i != k && j != k)
+                        System.out.println(array[i] + array[j] + array[k]);
+                }
+            }
+        }
     }
 }
